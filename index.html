@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="icon" href="images/l-2.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Navigation -->
+      <div class="flex flex-row justify-around pt-2">
+        <!--Part of Burger-->
+        <input type="checkbox" id="drop-menu" />
+        <a href="#home"><img src="images/l-1.png" style="height: 80px" /></a>
+        <!--Part of Burger-->
+        <div class="drop-button">
+          <label for="drop-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <!--Done-->
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about-us">About Us</a>
+          <a href="#our-work">Our Work</a>
+          <a href="#services">Services</a>
+        </nav>
+      </div>
+    </header>
+
+    <!--Hero -->
+
+    <div
+      class="flex flex-row flex-wrap justify-around items-center text-center h-full gap-8"
+      style="margin: 7.5% 10.5% 7% 10.5%"
+      id="home"
+    >
+      <h2 class="text-6xl font-bold text-left m-0 p-0">
+        Let us make your <br />
+        aspirations a reality.
+      </h2>
+      <div class="flex flex-col text-left gap-8">
+        <p class="text-xl" style="color: var(--p-color)">
+          Everything is in perfect working order,<br />
+          from the ground floor to the pinnacle.
+        </p>
+        <a
+          class="animated-word flex justify-between items-center rounded-full w-60 h-16 text-xl font-bold"
+          style="padding: 15px 30px 15px 25px"
+          href="#contact-us"
+        >
+          <p>Contact Us</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="23"
+            height="23"
+            fill="currentColor"
+            class="bi bi-arrow-right-short"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      class="bg-cover bg-fixed h-screen md:h-700 bg-center"
+      style="background-image: url(images/1.jpg)"
+    ></div>
+
+    <!-- Section 1 -->
+
+    <div
+      class="flex flex-col justify-center items-center px-6 my-16 md:my-28 xl:my-36 md:px-10 lg:px-18 gap-20"
+    >
+      <div class="flex flex-col gap-3 text-center">
+        <h3 class="font-bold text-6xl mb-6">
+          Creating your visions
+          <br />
+          making things happen.
+        </h3>
+        <p style="color: var(--p-color)">
+          Visions are made to be realized. Translating them into vibrant
+          realities,
+          <br />
+          making the impossible possible, one project at a time. Let's create
+          magic together!
+        </p>
+      </div>
+
+      <div class="flex flex-row flex-wrap items-center justify-center gap-20">
+        <div class="flex justify-between flex-col w-80 text-center gap-6">
+          <svg
+            class="m-auto"
+            width="80"
+            height="81"
+            viewBox="0 0 80 81"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Path -->
+            <path
+              opacity="0.0985398"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 8.05066C0 3.63238 3.58172 0.0506592 8 0.0506592H72C76.4183 0.0506592 80 3.63238 80 8.05066V72.0507C80 76.4689 76.4183 80.0507 72 80.0507H8C3.58172 80.0507 0 76.4689 0 72.0507V8.05066Z"
+              fill="#A6663F"
+            />
+            <path
+              d="M16 44.0507V38.0507L40 20.0507L64 38.0507V44.0507"
+              stroke="#A6663F"
+              stroke-width="4"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M57 33.0507V64.0507H23L23 14"
+              stroke="#A6663F"
+              stroke-width="4"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M48 64.0507V50.0507H32V64.0507"
+              stroke="#A6663F"
+              stroke-width="4"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <div class="flex flex-col gap-2">
+            <h4 class="text-xl font-bold">New Building</h4>
+            <p style="color: var(--p-color)">
+              We pride ourselves in architectural brilliance and exceptional
+              craftsmanship. Check our latest projects, showcasing innovative
+              plans and meticulous attention to detail.
+            </p>
+          </div>
+          <a class="a text-lg font-bold" href="#new-building">
+            <div class="flex justify-center items-center gap-3">
+              <p>Learn More</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="23"
+                fill="currentColor"
+                class="bi bi-arrow-right mt-1"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-between flex-col w-80 text-center gap-6">
+          <svg
+            class="m-auto"
+            width="80"
+            height="81"
+            viewBox="0 0 80 81"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Path -->
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 8.05066C0 3.63238 3.58172 0.0506592 8 0.0506592H72C76.4183 0.0506592 80 3.63238 80 8.05066V72.0507C80 76.4689 76.4183 80.0507 72 80.0507H8C3.58172 80.0507 0 76.4689 0 72.0507V8.05066Z"
+              fill="#F6F0EC"
+            />
+            <circle cx="40" cy="54" r="8" stroke="#A6663F" stroke-width="4" />
+            <path
+              d="M16 45.0507V39.0507L40 21.0507L64 39.0507V45.0507"
+              stroke="#A6663F"
+              stroke-width="4"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M55 34.0507V32.0507C53.8954 32.0507 53 32.9461 53 34.0507H55ZM55 54H53C53 55.1046 53.8954 56 55 56V54ZM59 34.0507H61C61 32.9461 60.1046 32.0507 59 32.0507V34.0507ZM59 54V56C60.1046 56 61 55.1046 61 54H59ZM25 54V56C26.1046 56 27 55.1046 27 54H25ZM25 15H27C27 13.8954 26.1046 13 25 13V15ZM21 54H19C19 55.1046 19.8954 56 21 56V54ZM21 15V13C19.8954 13 19 13.8954 19 15H21ZM53 34.0507V54H57V34.0507H53ZM59 32.0507H55V36.0507H59V32.0507ZM61 54V34.0507H57V54H61ZM55 56H59V52H55V56ZM27 54V15H23V54H27ZM21 56H25V52H21V56ZM19 15V54H23V15H19ZM25 13H21V17H25V13Z"
+              fill="#A6663F"
+            />
+            <circle cx="40" cy="54" r="2" fill="#A6663F" />
+            <rect x="38" y="41" width="4" height="4" fill="#A6663F" />
+            <rect x="38" y="63" width="4" height="4" fill="#A6663F" />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M29.3936 46.2218L32.222 43.3934L35.0504 46.2218L32.222 49.0502L29.3936 46.2218Z"
+              fill="#A6663F"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M44.9502 61.7782L47.7786 58.9497L50.607 61.7782L47.7786 64.6066L44.9502 61.7782Z"
+              fill="#A6663F"
+            />
+            <rect
+              x="32.2217"
+              y="64.6066"
+              width="4"
+              height="4"
+              transform="rotate(-135 32.2217 64.6066)"
+              fill="#A6663F"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M47.7786 49.0502L44.9502 46.2218L47.7786 43.3934L50.607 46.2218L47.7786 49.0502Z"
+              fill="#A6663F"
+            />
+            <rect x="27" y="52" width="4" height="4" fill="#A6663F" />
+            <rect x="49" y="52" width="4" height="4" fill="#A6663F" />
+          </svg>
+          <div class="flex flex-col gap-2">
+            <h4 class="text-xl font-bold">House Renovation</h4>
+            <p style="color: var(--p-color)">
+              Transform your home into a sanctuary with our expertise in
+              revitalizing rooms, bringing renovations that exceed expectations.
+              Elevate your experience with us.
+            </p>
+          </div>
+          <a class="a text-lg font-bold" href="#house-renovation">
+            <div class="flex justify-center items-center gap-3">
+              <p>Learn More</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="23"
+                fill="currentColor"
+                class="bi bi-arrow-right mt-1"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-between flex-col w-80 text-center gap-6">
+          <svg
+            class="m-auto"
+            width="80"
+            height="81"
+            viewBox="0 0 80 81"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Path -->
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 8.05066C0 3.63238 3.58172 0.0506592 8 0.0506592H72C76.4183 0.0506592 80 3.63238 80 8.05066V72.0507C80 76.4689 76.4183 80.0507 72 80.0507H8C3.58172 80.0507 0 76.4689 0 72.0507V8.05066Z"
+              fill="#F6F0EC"
+            />
+            <path
+              d="M16 45.0507V39.0507L40 21.0507V65.0507"
+              stroke="#A6663F"
+              stroke-width="4"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M40 34.0507H57V65.0507H23L23 15"
+              stroke="#A6663F"
+              stroke-width="4"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <div class="flex flex-col gap-2">
+            <h4 class="text-xl font-bold">Commercial Construction</h4>
+            <p style="color: var(--p-color)">
+              Unleash the full potential of your business with our skills in
+              designing and constructing creative commercial spaces. Boost your
+              brand and captivate your customers.
+            </p>
+          </div>
+
+          <a class="a text-lg font-bold" href="#commercial-construction">
+            <div class="flex justify-center items-center gap-3">
+              <p>Learn More</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="23"
+                fill="currentColor"
+                class="bi bi-arrow-right mt-1"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+
+    <div
+      class="flex flex-wrap justify-center my-16 md:my-28 xl:my-36 gap-6 lg:gap-20 px-6 md:px-10 lg:px-18"
+    >
+      <div
+        class="flex flex-col gap-8 md:gap-16 my-auto w-full sm:4/5 md:w-4/5 lg:w-5/12"
+      >
+        <h3 class="text-4xl md:text-6xl font-bold">
+          Adding quality in every project
+        </h3>
+        <p style="color: var(--p-color)">
+          We thrive on adding quality in every project. From groundbreaking to
+          final touches, we prioritize excellence in craftsmanship, attention to
+          detail, and client satisfaction. With a dedicated team of skilled
+          professionals, we create structures that stand the test of time,
+          exceeding expectations while building trust. Quality is our
+          foundation, and it resonates in every project we undertake.
+        </p>
+        <div class="flex justify-between">
+          <div class="text-center w-full md:w-1/2">
+            <p class="text-2xl md:text-4xl font-bold">148K</p>
+            <p>Resident Satisfaction</p>
+          </div>
+          <svg
+            width="3"
+            height="87"
+            viewBox="0 0 1 87"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0.5 87V0" stroke="#DEDEDE" />
+          </svg>
+          <div class="text-center w-full md:w-1/2">
+            <p class="text-2xl md:text-4xl font-bold">840+</p>
+            <p>Projects Completed</p>
+          </div>
+        </div>
+      </div>
+      <div
+        style="overflow: hidden"
+        class="img-container rounded-3xl my-auto w-full sm:4/5 md:w-4/5 lg:w-5/12"
+      >
+        <div
+          class="section-imgs rounded-3xl bg-cover bg-center"
+          style="background-image: url('images/9.jpg')"
+        ></div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+
+    <div
+      class="flex flex-wrap justify-center my-16 md:my-28 xl:my-36 px-6 md:px-10 lg:px-18 gap-6 lg:gap-20"
+    >
+      <div
+        style="overflow: hidden"
+        class="img-container rounded-3xl my-auto w-full sm:4/5 md:w-4/5 lg:w-5/12"
+      >
+        <div
+          class="section-imgs rounded-3xl bg-cover bg-center order-none sm:order-1"
+          style="background-image: url('images/2.jpg')"
+        ></div>
+      </div>
+      <div
+        class="flex flex-col gap-6 md:gap-16 my-auto w-full sm:4/5 md:w-4/5 lg:w-5/12 order-first sm:order-last"
+      >
+        <h3 class="text-4xl md:text-6xl font-bold">
+          Let your dreams be our project
+        </h3>
+        <p style="color: var(--p-color)">
+          We specialize in turning dreams into reality. Whether you're looking
+          to build a new home, a commercial building, or a dream vacation home,
+          we can help. With our experience, expertise, and passion, we can help
+          you build the home or commercial space of your dreams. Contact us
+          today to let us help you make your dreams come true.
+        </p>
+        <div class="flex flex-col gap-4">
+          <div class="flex items-center gap-3 text-lg">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="16" cy="16" r="16" fill="#F6F0EC" />
+              <path
+                d="M9 18.5L15.1111 22L23 10"
+                stroke="#A6663F"
+                stroke-width="2"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <p>Worldwide Coverage</p>
+          </div>
+          <div class="flex items-center gap-3 text-lg">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="16" cy="16" r="16" fill="#F6F0EC" />
+              <path
+                d="M9 18.5L15.1111 22L23 10"
+                stroke="#A6663F"
+                stroke-width="2"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <p>Professional & Certified Builders</p>
+          </div>
+          <div class="flex items-center gap-3 text-lg">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="16" cy="16" r="16" fill="#F6F0EC" />
+              <path
+                d="M9 18.5L15.1111 22L23 10"
+                stroke="#A6663F"
+                stroke-width="2"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <p>Licensed and Insured</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div
+      class="flex flex-row flex-wrap gap-8 my-16 md:my-28 xl:my-36 px-5 md:px-10 lg:px-18"
+    >
+      <div class="cs-container flex flex-col w-full">
+        <div class="cs-content flex flex-wrap flex-row justify-around gap-8">
+          <div class="cs-flex">
+            <p
+              class="text-xl md:text-lg font-bold"
+              style="color: var(--primary)"
+            >
+              Our Gallery
+            </p>
+            <p class="text-4xl md:text-6xl font-bold">
+              Built to your specifications
+            </p>
+          </div>
+          <div class="flex flex-wrap justify-between gap-6">
+            <button
+              class="cs-button"
+              class="text-base leading-6 pl-4 text-bodyTextColor bg-transparent border-none relative transition-colors duration-300"
+              data-filter="one"
+            >
+              Residential
+            </button>
+            <button
+              class="cs-button"
+              class="text-base leading-6 pl-4 text-bodyTextColor bg-transparent border-none relative transition-colors duration-300"
+              data-filter="two"
+            >
+              Interior
+            </button>
+            <button
+              class="cs-button"
+              class="text-base leading-6 pl-4 text-bodyTextColor bg-transparent border-none relative transition-colors duration-300"
+              data-filter="three"
+            >
+              Townhouse
+            </button>
+            <button
+              class="cs-button"
+              class="text-base leading-6 pl-4 text-bodyTextColor bg-transparent border-none relative transition-colors duration-300"
+              data-filter="four"
+            >
+              Commercial
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--Gallery 1-->
+      <div
+        class="cs-gallery flex justify-center flex-wrap items-center"
+        data-category="one"
+      >
+        <div class="cs-image" style="--order: 1">
+          <img src="images/101.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 2">
+          <img src="images/102.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 3">
+          <img src="images/103.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 4">
+          <img src="images/104.jpg" class="image-w-h" />
+        </div>
+      </div>
+      <!--Gallery 2-->
+      <div
+        class="cs-gallery flex justify-center flex-wrap items-center cs-hidden"
+        data-category="two"
+      >
+        <div class="cs-image" style="--order: 1">
+          <img src="images/201.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 2">
+          <img src="images/202.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 3">
+          <img src="images/203.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 4">
+          <img src="images/204.jpg" class="image-w-h" />
+        </div>
+      </div>
+      <!--Gallery 3-->
+      <div
+        class="cs-gallery flex justify-center flex-wrap items-center cs-hidden"
+        data-category="three"
+      >
+        <div class="cs-image" style="--order: 1">
+          <img src="images/401.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 2">
+          <img src="images/402.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 3">
+          <img src="images/403.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 4">
+          <img src="images/404.jpg" wclass="image-w-h" />
+        </div>
+      </div>
+      <!--Gallery 4-->
+      <div
+        class="cs-gallery flex justify-center flex-wrap items-center cs-hidden"
+        data-category="four"
+      >
+        <div class="cs-image" style="--order: 1">
+          <img src="images/301.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 2">
+          <img src="images/302.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 3">
+          <img src="images/303.jpg" class="image-w-h" />
+        </div>
+        <div class="cs-image" style="--order: 4">
+          <img src="images/304.jpg" wclass="image-w-h" />
+        </div>
+      </div>
+      <a
+        class="animated-word flex mx-auto items-center justify-between rounded-full max-w-xs max-h-16 text-lg font-bold"
+        style="padding: 15px 30px 15px 25px"
+        href="#portfolio"
+      >
+        See All Works
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="23"
+          height="23"
+          fill="currentColor"
+          class="bi bi-arrow-right-short"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Section 5 -->
+    <div
+      class="flex flex-row flex-wrap justify-center gap-2 items-center my-16 md:my-28 xl:my-36 px-5 md:px-10 lg:px-18"
+    >
+      <div class="flex flex-col gap-10 my-auto w-full md:w-1/2 lg:w-5/12">
+        <h3 class="font-bold" style="font-size: 56px; line-height: 68px">
+          Our customers love what we do
+        </h3>
+        <p class="text-xl leading-9">
+          Our customers inspire us every day. See how they can inspire you. We
+          need a bit more text here for this area to be event out in the visual.
+        </p>
+        <a
+          href="#reviews"
+          class="animated-word flex items-center pl-7 text-base max-w-xs h-16 rounded-full"
+          ><div class="flex justify-between items-center gap-8 font-bold">
+            <h5 class="text-lg">See all customer stories</h5>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="23"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              />
+            </svg>
+          </div>
+        </a>
+      </div>
+      <div class="rounded-3xl my-auto w-full md:w-4/5 lg:w-5/12">
+        <div class="carousel" data-flickity>
+          <div class="carousel-cell" style="margin-top: 50px">
+            <div class="flex flex-col gap-3">
+              <div class="flex flex-row items-center gap-5">
+                <div
+                  style="
+                    background-image: url('images/801.jfif');
+                    background-size: cover;
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 50%;
+                  "
+                ></div>
+                <div>
+                  <p>Angela Karamoy</p>
+                  <p class="text-xs" style="color: var(--p-color)">
+                    Happy Customer
+                  </p>
+                </div>
+              </div>
+              <p>
+                “Designspace has consistently delivered above and beyond my
+                expectations! Brilliant designs, incredible response time, a
+                very friendly team, I strongly recommend them."
+              </p>
+            </div>
+          </div>
+          <div class="carousel-cell" style="margin-top: 50px">
+            <div class="flex flex-col gap-3">
+              <div class="flex flex-row items-center gap-5">
+                <div
+                  style="
+                    background-image: url('images/802.jfif');
+                    background-size: cover;
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 50%;
+                  "
+                ></div>
+                <div>
+                  <p>Benjamin Davis</p>
+                  <p class="text-xs" style="color: var(--p-color)">
+                    Repeating Customer
+                  </p>
+                </div>
+              </div>
+              <p>
+                "Designspace exceeded our expectations! The design was perfect,
+                the work was done on time and within budget, and the team was
+                great to work with. We highly recommend them!"
+              </p>
+            </div>
+          </div>
+          <div class="carousel-cell" style="margin-top: 50px">
+            <div class="flex flex-col gap-3">
+              <div class="flex flex-row items-center gap-5">
+                <div
+                  style="
+                    background-image: url('images/803.jfif');
+                    background-size: cover;
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 50%;
+                  "
+                ></div>
+                <div>
+                  <p>Ethan Wilson</p>
+                  <p class="text-xs" style="color: var(--p-color)">
+                    Loyal Customer
+                  </p>
+                </div>
+              </div>
+              <p>
+                "Designspace is a great company to work with. They're
+                professional, creative, and efficient. We were very happy with
+                the results of our renovation."
+              </p>
+            </div>
+          </div>
+          <div class="carousel-cell" style="margin-top: 50px">
+            <div class="flex flex-col gap-3">
+              <div class="flex flex-row items-center gap-5">
+                <div
+                  style="
+                    background-image: url('images/804.jfif');
+                    background-size: cover;
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 50%;
+                  "
+                ></div>
+                <div>
+                  <p>Isabella Thompson</p>
+                  <p class="text-xs" style="color: var(--p-color)">
+                    Satisfied Customer
+                  </p>
+                </div>
+              </div>
+              <p>
+                "I can't say enough good things about Designspace. It was
+                incredible to work with Designspace. The design was exactly what
+                we wanted, and the work was done on time and within budget. I
+                highly recommend them!"
+              </p>
+            </div>
+          </div>
+          <div class="carousel-cell" style="margin-top: 50px">
+            <div class="flex flex-col gap-3">
+              <div class="flex flex-row items-center gap-5">
+                <div
+                  style="
+                    background-image: url('images/805.jfif');
+                    background-size: cover;
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 50%;
+                  "
+                ></div>
+                <div>
+                  <p>Alexander Martinez</p>
+                  <p class="text-xs" style="color: var(--p-color)">
+                    Valued Customer
+                  </p>
+                </div>
+              </div>
+              <p>
+                "Designspace was amazing to work with. They listened to our
+                needs and created a wonderful design that we very much love. The
+                work was done fast and efficiently. The team was always friendly
+                and responsive. We would definitely recommend them to anyone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer style="background-color: #a6663f" class="text-white mt-16">
+      <div class="flex flex-col text-center gap-16" style="height: 560px">
+        <div
+          class="border-transparent sm:border-b-2 sm:border-white mx-auto mt-24"
+          style="width: 80%; height: 50%"
+        >
+          <div
+            class="flex flex-col flex-justify-center text-center font-bold gap-12"
+          >
+            <h3 class="text-4xl" style="line-height: 52px">
+              Don't miss our update.<br />
+              Subscribe us for more info
+            </h3>
+            <a
+              class="foot-btn mx-auto text-base w-60 h-16 rounded-full"
+              href="#contact-us"
+            >
+              <div class="flex justify-between text-left px-10 py-5">
+                Get In Touch
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="23"
+                  height="23"
+                  fill="currentColor"
+                  class="bi bi-arrow-right self-center"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="mx-auto hidden sm:flex">
+          <nav class="flex justify-between text-center gap-20 text-lg foots">
+            <a href="#home">Home</a>
+            <a href="#about-us">About Us</a>
+            <a href="#our-work">Our Work</a>
+            <a href="#services">Services</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
