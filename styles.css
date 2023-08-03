@@ -1,9 +1,14 @@
 :root {
   --primary: #a6663f;
   --p-color: #343434;
+  --new-font: "Oswald", sans-serif;
+  --back-font: "Poppins", sans-serif;
 }
 html {
   scroll-behavior: smooth;
+}
+.new-font {
+  font-family: var(--new-font);
 }
 /* Hamburger */
 .nav-links {
@@ -415,23 +420,9 @@ html {
   right: 10px;
 }
 
-/* Animation for heading and button */
-@keyframes slideIn {
-  0% {
-    transform: translateX(0) translateY(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0) translateY(0);
-    opacity: 1;
-  }
-}
-
-h2.slide-animation {
-  animation: slideIn 1s ease-in-out;
-}
-
-.appointment-button.slide-animation {
-  animation: slideIn 1s ease-in-out;
-  animation-delay: 0.5s;
+.appointment-button {
+  margin-top: 20px;
+  background-color: var(--primary);
+  border: 1px solid white;
+  padding: 10px 20px 10px 20px;
 }

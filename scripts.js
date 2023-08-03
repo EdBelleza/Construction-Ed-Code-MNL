@@ -53,11 +53,6 @@ function showSlide(slideIndex) {
     slide.classList.remove("active");
     if (index === slideIndex) {
       slide.classList.add("active");
-      slide.querySelectorAll(".slide-animation").forEach((element) => {
-        element.classList.remove("slide-animation");
-        void element.offsetWidth; // Trigger reflow to restart animation
-        element.classList.add("slide-animation");
-      });
     }
   });
 }
